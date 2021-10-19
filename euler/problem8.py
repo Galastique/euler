@@ -8,8 +8,8 @@ checkNumber = str(bigNumber)
 #For every digit in string
 for x in checkNumber:
     #Add digit to list
-    int(x)
-    allNumbers.append(x)
+    numX = int(x)
+    allNumbers.append(numX)
 
 #
 #for y in allNumbers:

@@ -4,16 +4,32 @@
 
 
 #Variables
-numbers = [i for i in range(1, 21)]
-x = 1
-y = 2
 answer = 0
+done = 0
+primes = 2*3*5*7*11*13*17*19 #Makes things faster by multiplying primes together
 
-#Finds prime numbers
+#Loop
+for i in range(primes, 1000000000, primes):
+
+    #Exits loop if answer has been found
+    if done == 1:
+        break
+    
+    #Runs code if answer hasnt been found yet
+    elif done == 0:
+        temp = 0
+        done = 0
+
+        #Checks if numbers are divisable by numbers from 2 to 20
+        for j in range(2,21):
+            if i % j == 0:
+                temp+=1
+
+                #If number can be divided by all numbers
+                if temp == 19:
+                    done = 1
+                    answer = i
 
 
 #Displays answers
-print("\n")
-print(numbers)
-print("\n")
 print(answer)

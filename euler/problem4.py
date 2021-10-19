@@ -3,7 +3,7 @@
 #Find the largest palindrome made from the product of two 3-digit numbers.
 
 # https://stackoverflow.com/questions/6037973/project-euler-problem-number-4
-
+'''
 #List
 palindromes = []
 
@@ -46,22 +46,37 @@ print("\n")
 print(palindromes)
 print(biggest)
 '''
-def Palindrome(s):
-    if s == s[::-1]:
+#Checks if number is a palindrome
+def Palindrome(palindrome):
+    if palindrome == palindrome[::-1]:
         return True
     else:
         return False
 
-i = 100
-j = 100
+#Variables
+a = 100
+b = 100
 greatest = 0
-while (i <= 999):
-    while (j <= 999):
-        product = i * j
-        if (product > greatest and Palindrome(str(product))):
-            greatest = product
-        j += 1
-    j = 100
-    i += 1
+
+#Checks multipliers
+while (a <= 999):
+
+    while (b <= 999):
+        #Multiplies numbers
+        product = a * b
+        #Converts number to string
+        checkPalindrome = str(product)
+
+        #Check if number is palindrome
+        if (checkPalindrome[0] == checkPalindrome[-1]) and (checkPalindrome[1] == checkPalindrome[-2]) and (checkPalindrome[2] == checkPalindrome[-3]):
+
+            #Checks if product is the biggest palindrome so far
+            if product > greatest:
+                greatest = product
+
+        b += 1
+    b = 100
+    a += 1
+
+#Displays answer
 print(greatest)
-'''

@@ -1,30 +1,27 @@
-#answer is 104743
-"""
-primeNumbers = [2,3]
-number = 5
+#By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
-while len(primeNumbers) < 10001:
-    print(primeNumbers)
-    for i in range(2, number+1):
-        if number % i == 0:
-            primeNumbers.append(number)
-            number = number+2
-            print(primeNumbers)
-"""
+#What is the 10 001st prime number?
+
+
+#Variables
 primeNumbers = []
-def primes():
-    
-    for i in range(2, 120000):
-        fuckOff = 0
-        for j in range(2, i):
-            if i % j == 0:
-                fuckOff = 1
-        if fuckOff == 0 or i ==2:
-            #print(i)
-            primeNumbers.append(i)
-            #print(len(primeNumbers))
-if len(primeNumbers) < 10001:
-    primes()
+prime = 1
 
-print(primeNumbers)
-print(len(primeNumbers))
+#Run loop as long as list has less than 10,001 items
+while len(primeNumbers) < 10001:
+    prime += 1
+    temp = 0
+
+    #Tests if each number in list is prime
+    for i in primeNumbers:
+        if prime % i == 0:
+            temp = 1
+            break
+
+    #Adds prime number to list
+    if temp == 0:
+        primeNumbers.append(prime)
+
+
+#Displays answer
+print(prime)

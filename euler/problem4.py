@@ -6,13 +6,11 @@
 '''
 #List
 palindromes = []
-
 #Variables
 maxX = 999
 maxY = 999
 #number = 998001
 palindrome = 998001
-
 #Function that checks for palindromes
 def checkPalindome():
     #Convert number into string
@@ -21,10 +19,8 @@ def checkPalindome():
     if (checkPalindrome[0] == checkPalindrome[-1]) and (checkPalindrome[1] == checkPalindrome[-2]) and (checkPalindrome[2] == checkPalindrome[-3]): 
         #Adds palindrome to list
         palindromes.append(palindrome)
-
 #Finds all palindromes between 100x100 and 999x999
 #for x in range(100000, 998001):            
-
 #Checks palindromes for multipliers
 a = 100
 b = 100
@@ -37,10 +33,8 @@ for a in range(99, 999):
         #b += 1
     b = 100
     #a += 1
-
 #Finds more palindromes
 #palindrome -= 1
-
 #Displays answers
 print("\n")
 print(palindromes)

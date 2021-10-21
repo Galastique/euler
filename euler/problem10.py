@@ -1,22 +1,22 @@
 #Variables
 primeNumbers = [2]
-prime = 0
-sumPrimes = 0
+limit = 2000000
 
-#Run loop as long as list has less than 10,001 items
-for x in range(1, 100000, 2):
-    prime = x
+#Loop
+for x in range(3,limit,2):
+    temp = 0
 
     #Tests if each number in list is prime
     for i in primeNumbers:
-        if prime % i == 0:
+        if x % i == 0:
+            temp = 1
             break
-        else:
-            primeNumbers.append(prime)
-            sumPrimes = sum(primeNumbers)
-            print(primeNumbers)
 
+    #Adds prime number to list
+    if temp == 0:
+        primeNumbers.append(x)
 
 
 #Displays answer
-print(sumPrimes)
+answer = sum(primeNumbers)
+print(answer) #142913828922

@@ -7,10 +7,14 @@
 primeNumbers = []
 prime = 1
 
-#Run loop as long as list has less than 10,001 items
-while len(primeNumbers) < 10001:
+#Loop
+for x in range(0,200000):
     prime += 1
     temp = 0
+
+    #Stops loop if list has 10001 items
+    if len(primeNumbers) == 10001:
+        break
 
     #Tests if each number in list is prime
     for i in primeNumbers:
@@ -24,4 +28,4 @@ while len(primeNumbers) < 10001:
 
 
 #Displays answer
-print(prime)
+print(primeNumbers[-1])

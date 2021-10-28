@@ -1,13 +1,3 @@
-#shit
-
-#1. get list of primes from problem 7
-#2. for loop to check if number in range 1, 10^8 can be divided by numbers from prime list
-#3. if so, try it again
-#4. add number to other list unless it can be divided again
-#5. count amount of items in list
-#100,000,000
-
-
 #Variables
 primeNumbers = []
 prime = 1

@@ -19,4 +19,4 @@ for x in range(3,limit,2):
 
 #Displays answer
 answer = sum(primeNumbers)
-print(answer) #142913828922
+print(answer)

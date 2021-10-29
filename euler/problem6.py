@@ -1,4 +1,4 @@
-#yeah man
+#Variables
 numbers = []            #list of numbers
 numbersSquared = []     #square of every number in list
 x = 1                   #temp value
@@ -7,18 +7,15 @@ x = 1                   #temp value
 squareSum = 0           #square of "sum"
 
 #Adds numbers from 1 to 100 to list
-while x <= 100:
-    numbers.append(x)
-    x += 1
-
+for i in range(1,101):
+    numbers.append(i)
 
 
 #Adds numbers from list together
 sumList = sum(numbers)
 
 #Finds square of sum
-squareSum = sumList ** 2
-
+squareSum = sumList**2
 
 
 #Adds square of every number to list
@@ -34,6 +31,7 @@ answer = squareSum - squareNumbers
 
 
 #Displays answers
+'''
 print("\n")
 print(numbers)      #list
 print("\n")
@@ -43,4 +41,5 @@ print(squareSum)    #square of sum
 print("\n")
 print(numbersSquared)
 print("\n")
+'''
 print(answer)

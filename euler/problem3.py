@@ -1,21 +1,18 @@
+#Imports
+import math
+
 #Variables
 factors = []
 number = 600851475143
-prime = 1
 
-#For loop
-for prime in range(1, 600851475143):
-    #If number is prime, add it to list
+#Finds prime factors of 600851475143
+for prime in range(1, number):
+
+    #Adds number to list if its prime
     if number % prime == 0:
         factors.append(prime)
 
-        #If all prime factors are found, stop the loop
-        result = 1
-        for i in factors:
-            if result == number:
-                print("\n")
-                print(factors)
-                print("\n")
-                print(result)
-                exit()
-            result *= i
+        #Check if all prime factors have been found
+        if math.prod(factors) == number:
+            print(prime)
+            exit()

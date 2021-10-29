@@ -16,7 +16,7 @@ for x in range(3,limit,2):
     if temp == 0:
         primeNumbers.append(x)
 
+answer = sum(primeNumbers)
 
 #Displays answer
-answer = sum(primeNumbers)
 print(answer)

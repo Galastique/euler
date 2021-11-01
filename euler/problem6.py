@@ -1,45 +1,17 @@
 #Variables
-numbers = []            #list of numbers
-numbersSquared = []     #square of every number in list
-x = 1                   #temp value
-#squareNumbers = 0       #sum of the squares of every number in list
-#sum = 0                 #sum of every number in list
-squareSum = 0           #square of "sum"
+sum = 0
+squares = 0
 
-#Adds numbers from 1 to 100 to list
+#Adds numbers from 1 to 100 together
 for i in range(1,101):
-    numbers.append(i)
-
-
-#Adds numbers from list together
-sumList = sum(numbers)
+    sum+=i #Adds numbers together
+    squares+=i**2 #Adds square of numbers together
 
 #Finds square of sum
-squareSum = sumList**2
-
-
-#Adds square of every number to list
-for i in numbers:
-    y = i ** 2
-    numbersSquared.append(y)
-
-#Gets sum of every squared number from list
-squareNumbers = sum(numbersSquared)
+sum = sum**2
 
 #Gets final answer
-answer = squareSum - squareNumbers
-
+answer = sum-squares
 
 #Displays answers
-'''
-print("\n")
-print(numbers)      #list
-print("\n")
-print(sum)          #sum of list
-print("\n")
-print(squareSum)    #square of sum
-print("\n")
-print(numbersSquared)
-print("\n")
-'''
 print(answer)

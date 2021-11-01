@@ -1,9 +1,8 @@
 #Variables
 primeNumbers = [2]
-limit = 2000000
 
 #Loop
-for x in range(3,limit,2):
+for x in range(3,2000000,2):
     temp = 0
 
     #Tests if each number in list is prime

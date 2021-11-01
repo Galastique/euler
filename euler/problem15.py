@@ -1,25 +1,17 @@
-#Variables
-width = 20
-height = 20
+#Plugins
+import math
 
-across = 0
-x = 0
-y = 0
+#Variables
 answer = 0
 
 
-#Executes code until the "end of the grid" has been reached
-while across < (width+height):
-    across+=1
-    
-    #For each horizontal movement
-    for x in range(1,width+1):
-        for y in range(1,height+1-x):
-            #if x == width and y == height:
-            #print(x, y)
-            answer+=1
+#Number of possible paths
+horizontal = math.factorial(20)
+vertical = math.factorial(20)
+end = math.factorial(20+20)
 
-
+#Counts answer (binomial coefficient)
+answer = int(end/(horizontal*vertical))
 
 #Displays answer
 print(answer)

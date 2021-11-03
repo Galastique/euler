@@ -1,25 +1,26 @@
-#Lists
-fibonacciNumbers = [1,2]
+#Variables
+fibonacciNumbers = [0,1]
 evenFibonacciNumbers = []
 
-#Variables
-x = 0
 
-#Finds fibonacci numbers
+#Loop
 for x in range(0,4000000,2):
 
-    #Gets sum of last 2 numbers
+    #Finds value of next number
     x = fibonacciNumbers[-2] + fibonacciNumbers[-1]
 
-    #Adds sum to the list
+    #Adds number to the list
     if x < 4000000:
         fibonacciNumbers.append(x)
 
 
-#Finds even numbers from list
+#For every number in list
 for y in fibonacciNumbers:
+
+    #Finds even numbers from list
     if y % 2 == 0:
         evenFibonacciNumbers.append(y)
+
 
 #Gets answer
 answer = sum(evenFibonacciNumbers)

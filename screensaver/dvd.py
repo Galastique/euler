@@ -36,7 +36,6 @@ crashed = False
 def dvd(x,y):
     gameDisplay.blit(dvdImage, (x,y))
 
-
 #Removes semi-transparent pixels
 i = 1
 for i in range(1,255):
@@ -86,9 +85,9 @@ while not crashed:
     #Position
     x = 0
     y = 0
-    speed = .5
+    speed = .4
     
-    #Temp values
+    #Temp values to know which direction the logo is moving
     tempX = 0
     tempY = 0
 
@@ -171,7 +170,6 @@ while not crashed:
         #sleep(0.016)
     
     #Framerate I think 
-    #pygame.display.update() #updates display
     clock.tick(60) #60 times a second
 
 #Exits program

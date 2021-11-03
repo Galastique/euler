@@ -16,9 +16,8 @@ for x in range(1,10000000):
     #Checks if answer has been found
     if divisors > 500:
         answer = number
-        break
 
-
-#Displays answers
-print(x) #2031455
-print(answer) #682512600 (wrong)
+        #Displays answers
+        print(divisors)
+        print(answer)
+        exit()

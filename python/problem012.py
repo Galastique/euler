@@ -4,10 +4,10 @@ divisors = 0 #amount of divisors a number has
 number = 0 #triangular number
 
 #Loop
-for x in range(1,10000000):
+for x in range(1,100000):
     divisors = 0 #resets amount
     number+=x #gets new value of triangular number
-
+    
     #Adds numbers to list
     for y in range(1,number+1):
         if number % y == 0:
@@ -21,3 +21,5 @@ for x in range(1,10000000):
         print(divisors)
         print(answer)
         exit()
+
+print(number)

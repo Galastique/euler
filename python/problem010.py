@@ -6,7 +6,7 @@ for x in range(3,2000000,2):
     temp = 0
 
     #Tests if each number in list is prime
-    for i in primeNumbers:
+    for i in range(2,x):
         if x % i == 0:
             temp = 1
             break

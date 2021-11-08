@@ -4,7 +4,7 @@ public class problem002 {
 	public static void main(String[] args) {
 
 		// Variables
-		List<Integer> fibonacciNumbers = new ArrayList<>(0, 1);
+		List<Integer> fibonacciNumbers = new ArrayList<Integer>(Arrays.asList(0, 1));
 		int answer = 0;
 
 		// Executes for every number under 4000000 in intervals of 2

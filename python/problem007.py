@@ -20,4 +20,4 @@ for prime in range(2,200000):
         primeNumbers.append(prime)
 
 #Displays answer
-print(primeNumbers[-1])
+print(primeNumbers[-1]) #Expected 104743

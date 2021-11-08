@@ -25,4 +25,4 @@ while (a <= 999):
     a += 1
 
 #Displays answer
-print(greatest)
+print(greatest) #Expected 906609

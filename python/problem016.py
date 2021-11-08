@@ -18,4 +18,4 @@ answer = sum(numbers)
 
 
 #Displays answer
-print(answer)
+print(answer) #Expected 1366

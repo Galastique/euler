@@ -18,8 +18,5 @@ for x in range(1,100000):
         answer = number
 
         #Displays answers
-        print(divisors)
-        print(answer)
+        print(answer) #Expected 76576500
         exit()
-
-print(number)

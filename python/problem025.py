@@ -17,5 +17,5 @@ while True:
         answer = len(fibonacciNumbers)-1
 
         #Displays answer
-        print(answer)
+        print(answer) #Expected 4782
         exit()

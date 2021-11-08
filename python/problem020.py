@@ -22,4 +22,4 @@ answer = sum(digits)
 
 
 #Displays answers
-print(answer)
+print(answer) #Expected 648

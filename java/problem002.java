@@ -22,10 +22,9 @@ public class problem002 {
 					answer+=x;
 				}
 			}
-
 		}
-
+		
 		// Displays answer
-		System.out.print(answer);
+		System.out.print(answer); //Expected 4613732
 	}
 }

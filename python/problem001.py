@@ -7,4 +7,4 @@ for x in range(1,1000):
         answer+=x
 
 #Displays answer
-print(answer)
+print(answer) #Expected 233168

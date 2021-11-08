@@ -16,6 +16,6 @@ public class problem001{
 			}
 
 		//Displays answer
-		System.out.print(answer);
+		System.out.print(answer); //Expected 233168
 	}
 }

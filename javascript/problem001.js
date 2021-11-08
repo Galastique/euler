@@ -11,4 +11,4 @@ for (x = 0; x < 1000; x++) {
 }
 
 //Displays answer
-console.log(answer)
+console.log(answer); //Expected 233168

@@ -1,5 +1,5 @@
 #Variables
-fibonacciNumbers = [0,1]
+fibonacciNumbers = [0, 1]
 answer = 0
 
 
@@ -17,5 +17,5 @@ while True:
         answer = len(fibonacciNumbers)-1
 
         #Displays answer
-        print(answer) #Expected 4782
+        print(answer)  # Expected 4782
         exit()

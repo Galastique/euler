@@ -1,6 +1,7 @@
 #Variables
 sum = 0
 squares = 0
+answer = 0
 
 #Adds numbers from 1 to 100 together
 for i in range(1,101):

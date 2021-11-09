@@ -9,6 +9,7 @@ for a in range(100,1000):
     #Checks second multiplier
     for b in range(100,1000):
 
+        #Gets product of multipliers and converts them to string
         product = a * b
         checkPalindrome = str(product)
 

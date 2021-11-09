@@ -1,6 +1,5 @@
 #Variables
-a = 100
-b = 100
+product = 0
 greatest = 0
 
 

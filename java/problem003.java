@@ -8,20 +8,18 @@ public class problem003 {
 		long number = 600851475143L;
 		long temp = 1;
 
-		for(long prime=1L; prime<number; prime++){
+		for (long prime = 1L; prime < number; prime++) {
 
-			//Adds number to list if its prime
-			if((number % prime)==0){
+			// Adds number to list if its prime
+			if ((number % prime) == 0) {
 				factors.add(prime);
-		
-				
-				//Counts product of primes
-				temp = temp*prime;
-		
-		
-				//Check if all prime factors have been found
+
+				// Counts product of primes
+				temp = temp * prime;
+
+				// Check if all prime factors have been found
 				if (temp == number) {
-					System.out.print(prime); //Expected 6857
+					System.out.print(prime); // Expected 6857
 					break;
 				}
 			}

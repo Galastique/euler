@@ -5,10 +5,10 @@ greatest = 0
 
 
 #Checks first multiplier
-while (a <= 999):
+for a in range(100,1000):
 
     #Checks second multiplier
-    while (b <= 999):
+    for b in range(100,1000):
 
         product = a * b
         checkPalindrome = str(product)
@@ -20,9 +20,6 @@ while (a <= 999):
             if product > greatest:
                 greatest = product
 
-        b += 1
-    b = 100
-    a += 1
 
 #Displays answer
 print(greatest) #Expected 906609

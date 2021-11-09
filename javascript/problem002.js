@@ -6,7 +6,7 @@ var answer = 0;
 for (i = 0; i < 4000000; i += 2) {
 
     //Finds value of next number
-    var x = fibonacciNumbers[fibonacciNumbers.length -2] + fibonacciNumbers[fibonacciNumbers.length -1];
+    var x = fibonacciNumbers[fibonacciNumbers.length - 2] + fibonacciNumbers[fibonacciNumbers.length - 1];
 
     //Adds number to the list
     if (x < 4000000) {

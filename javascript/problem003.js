@@ -10,9 +10,9 @@ for (prime = 0; prime < number; prime++) {
     if (number % prime == 0) {
         factors.push(prime);
 
-        
+
         //Counts product of primes
-        temp = temp*prime;
+        temp = temp * prime;
 
 
         //Check if all prime factors have been found

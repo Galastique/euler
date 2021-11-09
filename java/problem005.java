@@ -1,8 +1,8 @@
 public class problem005 {
     public static void main(String[] args) {
         // Variables
-        int answer = 0;
         int primes = 2 * 3 * 5 * 7 * 11 * 13 * 17 * 19; // Makes things faster by multiplying primes together
+        int answer = 0;
 
         // Loop
         for (int i = primes; i < 1000000000; i += primes) {

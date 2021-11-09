@@ -1,5 +1,6 @@
 #Variables
 primeNumbers = []
+answer = 0
 
 #Loop
 for prime in range(2,200000):
@@ -19,5 +20,8 @@ for prime in range(2,200000):
     if temp == 0:
         primeNumbers.append(prime)
 
+#Gets answer
+answer = primeNumbers[-1]
+
 #Displays answer
-print(primeNumbers[-1]) #Expected 104743
+print(answer) #Expected 104743

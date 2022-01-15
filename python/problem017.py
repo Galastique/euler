@@ -15,4 +15,4 @@ for word in numbers:
             answer -= 1
 
 #Display answer
-print(answer)
+print(answer) #Expected 21124

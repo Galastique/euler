@@ -1,4 +1,3 @@
 problem 7 line 12-16
 problem 10 line 8-12
-problem 11 (I literraly havent done it but I know the answer is 56585844 (87*97*94*89))
 problem 12 line 7-19

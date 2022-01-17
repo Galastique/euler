@@ -1,6 +1,6 @@
 //Variables
-var primeNumbers = [];
-var answer = 0;
+let primeNumbers = [];
+let answer = 0;
 
 //Loop
 for (prime = 2; prime < 200000; prime++) {

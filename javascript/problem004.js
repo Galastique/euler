@@ -1,6 +1,6 @@
 //Variables
-var product = 0;
-var greatest = 0;
+let product = 0;
+let greatest = 0;
 
 
 //Checks first multiplier

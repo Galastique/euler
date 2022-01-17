@@ -1,7 +1,7 @@
 //Variables
-var factors = [];
-var number = 600851475143;
-var temp = 1;
+let factors = [];
+let number = 600851475143;
+let temp = 1;
 
 //Finds prime factors of 600851475143
 for (prime = 0; prime < number; prime++) {

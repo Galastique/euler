@@ -1,7 +1,7 @@
 //Variables
-var sum = 0;
-var squares = 0;
-var answer;
+let sum = 0;
+let squares = 0;
+let answer;
 
 //Adds numbers from 1 to 100 together
 for (i = 1; i <= 100; i++) {

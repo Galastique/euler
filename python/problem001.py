@@ -1,4 +1,4 @@
-#Variables
+#Variable
 answer = 0
 
 #Finds the multiples of 3 or 5 under 1000

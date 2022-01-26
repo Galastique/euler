@@ -4,25 +4,22 @@ worth = 0
 position = 0
 answer = 0
 
-
-#Code
+#Sorts names in alphabetical order
 names.sort()
 
 #For every name
 for name in names:
-    #Resets variables
     worth = 0
     position = 0
 
     #Finds position value
     position = names.index(name) + 1
 
-    #For every letter
+    #Gets number value of every letter
     for letter in name:
-        #Gets number value
         worth += (ord(letter) - 64)
 
-    #Calculates answer
+    #Finds answer
     answer += worth * position
 
 #Displays answer

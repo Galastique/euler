@@ -1,9 +1,5 @@
-#Variables
-a = 0
-b = 0
-c = 0
+#Variable
 answer = 0
-
 
 #Gets value of a
 for a in range(1,400):
@@ -15,11 +11,10 @@ for a in range(1,400):
         c = 1000-a-b
 
         #Checks if pythagorean triplet has been found
-        if ((answer == 0) and ((a < b) < c) and (a + b + c == 1000) and (a*a + b*b == c*c)):
+        if ((answer == 0) and (a < b < c) and (a + b + c == 1000) and (a*a + b*b == c*c)):
 
             #Assigns answer
             answer = a*b*c
-
 
 #Displays answer
 print(answer) #Expected 31875000

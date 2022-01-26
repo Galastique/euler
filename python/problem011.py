@@ -28,6 +28,7 @@ answer = 0
 #Horizontal
 #Rows
 for i in range(1,20):
+
     #Numbers
     for j in range(1,17):
 
@@ -42,6 +43,7 @@ for i in range(1,20):
 #Vertical
 #Rows
 for i in range(1,17):
+
     #Numbers
     for j in range(1,20):
 
@@ -56,6 +58,7 @@ for i in range(1,17):
 #Diagonal (down right)
 #Rows
 for i in range(1,17):
+
     #Numbers
     for j in range(1,17):
 
@@ -70,6 +73,7 @@ for i in range(1,17):
 #Other diagonal (up right)
 #Rows
 for i in range(4,20):
+
     #Numbers
     for j in range(1,17):
 
@@ -79,7 +83,6 @@ for i in range(4,20):
         #Checks if biggest number has been found
         if answer < product:
             answer = product
-
 
 #Displays answer
 print(answer) #Expected 70600674

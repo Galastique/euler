@@ -2,7 +2,6 @@
 product = 0
 greatest = 0
 
-
 #Checks first multiplier
 for a in range(100,1000):
 
@@ -19,7 +18,6 @@ for a in range(100,1000):
             #Checks if product is the biggest palindrome so far
             if product > greatest:
                 greatest = product
-
 
 #Displays answer
 print(greatest) #Expected 906609

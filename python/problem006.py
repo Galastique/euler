@@ -1,18 +1,14 @@
 #Variables
 sum = 0
 squares = 0
-answer = 0
 
-#Adds numbers from 1 to 100 together
+#Finds sum and sum of squares
 for i in range(1,101):
-    sum+=i #Adds numbers together
-    squares+=i**2 #Adds square of numbers together
+    sum += i
+    squares += i**2
 
 #Finds square of sum
 sum = sum**2
 
-#Gets final answer
-answer = sum-squares
-
 #Displays answers
-print(answer) #Expected 25164150
+print(sum - squares) #Expected 25164150

@@ -2,7 +2,7 @@
 fibonacciNumbers = [0,1]
 answer = 0
 
-#Loop
+#Finds fibanacci numbers
 for i in range(0,4000000,2):
 
     #Finds value of next number
@@ -12,10 +12,9 @@ for i in range(0,4000000,2):
     if x < 4000000:
         fibonacciNumbers.append(x)
 
-        #Adds even fibonacci number
+        #Gets sum of even fibonacci number
         if x % 2 == 0:
             answer+=x
-
 
 #Displays answer
 print(answer) #Expected 4613732

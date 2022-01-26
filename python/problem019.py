@@ -13,7 +13,7 @@ for year in range(1901,2001):
         day = datetime.date(year, month, 1)
         weekday = day.weekday()
 
-        #If day 1 = sunday
+        #If day 1 = sunday count it
         if weekday == 6:
             sundays += 1
 

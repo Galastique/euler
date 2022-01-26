@@ -4,7 +4,6 @@ import math
 #Variables
 answer = 0
 
-
 #Number of possible paths
 horizontal = math.factorial(20)
 vertical = math.factorial(20)

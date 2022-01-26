@@ -1,21 +1,10 @@
 #Variables
-numbers = []
-bigNumber = 2**1000
+bigNumber = str(2**1000)
+sum = 0
 
-
-#Converts number into a string
-checkNumber = str(bigNumber)
-
-#For every digit in string
-for x in checkNumber:
-    #Add digit to list
-    numX = int(x)
-    numbers.append(numX)
-
-
-#Gets answer
-answer = sum(numbers)
-
+#Adds every digit of number to sum
+for x in bigNumber:
+    sum += int(x)
 
 #Displays answer
-print(answer) #Expected 1366
+print(sum) #Expected 1366

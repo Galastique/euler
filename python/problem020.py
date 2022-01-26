@@ -1,25 +1,12 @@
-#Plugins
 import math
 
-
 #Variables
-factorial = math.factorial(100)
-digits = []
-answer = 0
+factorial = str(math.factorial(100))
+sum = 0
 
-
-#Converts number to string
-temp = str(factorial)
-
-#For every digit in string
-for x in temp:
-    #Add digit to list
-    numX = int(x)
-    digits.append(numX)
-
-#Assigns answer to variable
-answer = sum(digits)
-
+#For every digit add it to list
+for x in factorial:
+    sum += int(x)
 
 #Displays answers
-print(answer) #Expected 648
+print(sum) #Expected 648

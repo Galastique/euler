@@ -1,4 +1,3 @@
-#Imports
 import math
 
 #Variables
@@ -14,5 +13,5 @@ for prime in range(1, number):
 
         #Check if all prime factors have been found
         if math.prod(factors) == number:
-            print(prime)  # Expected 6857
+            print(prime)  #Expected 6857
             exit()

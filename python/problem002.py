@@ -14,7 +14,7 @@ for i in range(0,4000000,2):
 
         #Gets sum of even fibonacci number
         if x % 2 == 0:
-            answer+=x
+            answer += x
 
 #Displays answer
 print(answer) #Expected 4613732

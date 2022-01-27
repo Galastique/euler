@@ -2,7 +2,6 @@ import math
 
 #Variables
 primeNumbers = [2]
-answer = 0
 
 #Finds every prime number
 for prime in range(3,200000,2):

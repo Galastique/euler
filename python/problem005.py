@@ -4,7 +4,6 @@ primes = 2*3*5*7*11*13*17*19  #Makes things faster by multiplying primes togethe
 
 #Finds smallest divisible number
 for i in range(primes, 1000000000, primes):
-
     temp = 0
 
     #Checks if numbers are divisable by numbers from 2 to 20

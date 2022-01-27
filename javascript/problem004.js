@@ -10,7 +10,7 @@ for (a = 100; a <= 999; a++) {
 
         //Gets product of multipliers and converts them to string
         product = a * b;
-        checkPalindrome = product + "";
+        let checkPalindrome = product + "";
 
         //Check if number is palindrome
         if ((checkPalindrome.charAt(0) == checkPalindrome.charAt(checkPalindrome.length - 1)) && (checkPalindrome.charAt(1) == checkPalindrome.charAt(checkPalindrome.length - 2)) && (checkPalindrome.charAt(2) == checkPalindrome.charAt(checkPalindrome.length - 3))) {

@@ -4,7 +4,6 @@ let allNumbers = [];
 let adjacentDigits = [];
 let biggest = 0;
 let product = 1;
-let temp = 0;
 
 //Convert every digit into individual number
 for(i = 0; i < bigNumber.length; i++){

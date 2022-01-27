@@ -2,10 +2,8 @@
 let answer = 0;
 let primes = 2 * 3 * 5 * 7 * 11 * 13 * 17 * 19; //Makes things faster by multiplying primes together
 
-
-//Loop
+//Finds smallest divisible number
 for (i = primes; i < 1000000000; i += primes) {
-
     let temp = 0;
 
     //Checks if numbers are divisable by numbers from 2 to 20

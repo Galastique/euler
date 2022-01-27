@@ -4,10 +4,10 @@ let allNumbers = [];
 let adjacentDigits = [];
 let biggest = 0;
 let product = 1;
+let temp = 0;
 
-//For every digit in strings
+//Convert every digit into individual number
 for(i = 0; i < bigNumber.length; i++){
-    //Adds number into list
     allNumbers.push(bigNumber[i]);
 }
 
@@ -18,11 +18,10 @@ for(j = 0; j < allNumbers.length - 12; j++){ //-12 so the string of 13 ends on t
 
     //Adds 13 adjacent digits to list
     for(k = 0; k < 13; k++){
-        //Adds digits to list
         adjacentDigits.push(allNumbers[j+k]);
     }
 
-    //Gets product of those numbers
+    //Gets product of adjacent numbers
     for(l = 0; l < adjacentDigits.length; l++){
         product *= adjacentDigits[l];
     }

@@ -1,18 +1,17 @@
 //Variables
-let primeNumbers = [];
-let answer = 0;
+let primeNumbers = [2];
 
-//Loop
-for (prime = 2; prime < 200000; prime++) {
+//Finds every prime number
+for (prime = 3; prime < 200000; prime += 2) {
     temp = 0;
 
-    //Stops loop if list has 10001 items
+    //Stops loop if answer has been found
     if (primeNumbers.length == 10001) {
         break;
     }
 
     //Tests if each number in list is prime
-    for (i = 2; i <= primeNumbers.length; i++) {
+    for (i = 3; i < Math.round(Math.sqrt(prime))+1; i++) {
         if (prime % i == 0) {
             temp = 1;
             break;
@@ -25,8 +24,5 @@ for (prime = 2; prime < 200000; prime++) {
     }
 }
 
-//Gets answer
-answer = primeNumbers[primeNumbers.length - 1];
-
 //Displays answer
-console.log(answer); //Expected 104743
+console.log(primeNumbers[primeNumbers.length - 1]); //Expected 104743

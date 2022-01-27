@@ -2,7 +2,7 @@
 let fibonacciNumbers = [0, 1];
 let answer = 0;
 
-//Loop
+//Finds fibonacci numbers
 for (i = 0; i < 4000000; i += 2) {
 
     //Finds value of next number
@@ -12,11 +12,12 @@ for (i = 0; i < 4000000; i += 2) {
     if (x < 4000000) {
         fibonacciNumbers.push(x);
 
-        //Adds even fibonacci number
+        //Gets sum of even fibonacci number
         if (x % 2 == 0) {
             answer += x;
         }
     }
 }
+
 //Displays answer
 console.log(answer); //Expected 4613732

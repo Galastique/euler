@@ -1,23 +1,19 @@
 public class problem006 {
     public static void main(String[] args) {
-        // Variables
+        //Variables
         int sum = 0;
         int squares = 0;
-        int answer;
 
-        // Adds numbers from 1 to 100 together
+        //Finds sum and sum of squares
         for (int i = 1; i <= 100; i++) {
-            sum += i;// Adds numbers together
-            squares += i * i; // Adds square of numbers together
+            sum += i;
+            squares += i * i;
         }
 
-        // Finds square of sum
+        //Finds square of sum
         sum = sum * sum;
 
-        // Gets final answer
-        answer = sum - squares;
-
-        // Displays answers
-        System.out.println(answer); // Expected 25164150
+        //Displays answers
+        System.out.println(sum - squares); //Expected 25164150
     }
 }

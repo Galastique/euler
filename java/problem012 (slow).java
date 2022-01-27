@@ -10,7 +10,7 @@ public class problem012 {
             divisors = 0;
             number += x;
 
-            //Counts divisors
+            //Finds new divisors
             for(int y = 1; y < Math.round(number/2)+1; y++){
                 if(number % y == 0){
                     divisors += 1;

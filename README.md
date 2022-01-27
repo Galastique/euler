@@ -9,4 +9,6 @@ This can also act as some sort of archive of the evolution of my programming ski
 
 Feel free to inspire yourselves from these to solve them, but **do not copy**, otherwise it ruins the fun of solving them by yourself! :)
 
--Galastique
+-[Galastique](https://www.reddit.com/user/Galastique)
+
+![catte2](https://i.imgur.com/MGpu9B7.jpg)

@@ -7,7 +7,13 @@ So here are my takes on them! They are not the best, they are not all well optim
 but they are mine, which is all that matters to me. 
 This can also act as some sort of archive of the evolution of my programming skills over the following years.
 
-Feel free to inspire yourselves from these to solve them, but **do not copy**, otherwise it ruins the fun of solving them by yourself! :)
+Here's a list of the current languages:
+- [x] Python
+- [x] Java
+- [x] JavaScript
+- [ ] C++
+
+Feel free to inspire yourself from these to solve them, but **do not copy**, otherwise it'll ruin the fun of solving them by yourself! :)
 
 -[Galastique](https://www.reddit.com/user/Galastique)
 

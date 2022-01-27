@@ -1,7 +1,6 @@
-#Plugins
 import math
 
-#Variables
+#Variable
 answer = 0
 
 #Number of possible paths
@@ -10,7 +9,7 @@ vertical = math.factorial(20)
 end = math.factorial(20+20)
 
 #Counts answer (binomial coefficient)
-answer = int(end/(horizontal*vertical))
+answer = int(end / (horizontal * vertical))
 
 #Displays answer
 print(answer) #Expected 137846528820

@@ -7,7 +7,7 @@ for x in range(1, 100000):
     divisors = 0
     number += x
 
-    #Counts divisors
+    #Finds new divisors
     for y in range(1, round(number/2)+1):
         if number % y == 0:
             divisors += 1

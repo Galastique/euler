@@ -4,7 +4,7 @@ answer = 0
 
 #For every word
 for word in numbers:
-
+    
     #Count every letter
     for letter in word:
         answer += 1

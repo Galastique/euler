@@ -11,7 +11,7 @@ Here's a list of the current languages:
 - [x] Python
 - [x] Java
 - [x] JavaScript
-- [ ] C++
+- [ ] Suggestion?
 
 Feel free to inspire yourself from these to solve them, but **do not copy**, otherwise it'll ruin the fun of solving them by yourself! :)
 

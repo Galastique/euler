@@ -10,8 +10,7 @@ for year in range(1901,2001):
     for month in range(1,13):
 
         #Get weekday of first day of the month
-        day = datetime.date(year, month, 1)
-        weekday = day.weekday()
+        weekday = datetime.date(year, month, 1).weekday()
 
         #If day 1 = sunday count it
         if weekday == 6:

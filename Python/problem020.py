@@ -4,7 +4,7 @@ import math
 factorial = str(math.factorial(100))
 sum = 0
 
-#For every digit add it to list
+#Add every number to total
 for x in factorial:
     sum += int(x)
 

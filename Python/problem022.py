@@ -14,7 +14,7 @@ for name in names:
 
     #Finds position value
     position = names.index(name) + 1
-
+    
     #Gets number value of every letter
     for letter in name:
         worth += (ord(letter) - 64)

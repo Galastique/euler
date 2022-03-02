@@ -16,7 +16,6 @@ pyramid = [
     [63, 66, 4, 68, 89, 53, 67, 30, 73, 16, 69, 87, 40, 31],
     [4, 62, 98, 27, 23, 9, 70, 98, 73, 93, 38, 53, 60, 4, 23]
     ]
-sum = 0
 position = 0
 
 #For every row
@@ -25,7 +24,7 @@ for row in range(1, len(pyramid)):
 
     #For every number
     for number in range(0, len(pyramid[position])):
-
+        
         #Checks which number is bigger
         if (pyramid[position+1][number]) > (pyramid[position+1][number+1]):
             pyramid[position][number] += pyramid[position+1][number]

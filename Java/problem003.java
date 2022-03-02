@@ -6,7 +6,7 @@ public class problem003 {
 		long number = 600851475143L;
 
 		//Finds prime factors of 600851475143
-		for (long prime = 1L; prime < number; prime++) {
+		for (long prime = 1L; prime < Math.floor(number/2); prime++) {
 
 			//Multiplies number to total if its prime
 			if (number % prime == 0L) {

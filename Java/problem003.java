@@ -4,20 +4,19 @@ public class problem003 {
 		//Variables
 		long factors = 1L;
 		long number = 600851475143L;
+		long prime = 0L;
 
 		//Finds prime factors of 600851475143
-		for (long prime = 1L; prime < Math.floor(number/2); prime++) {
+		while (factors != number) {
+			prime += 1;
 
 			//Multiplies number to total if its prime
 			if (number % prime == 0L) {
 				factors *= prime;
-
-				//Check if all prime factors have been found
-				if (factors == number) {
-					System.out.print(prime); //Expected 6857
-					break;
-				}
 			}
 		}
+
+		//Displays answer
+		System.out.print(prime); //Expected 6857
 	}
 }
